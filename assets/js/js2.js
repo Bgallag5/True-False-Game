@@ -23,7 +23,7 @@ var questions= [
     var score = 0;
   
     
-    window.alert("Welcome to a True/False Game! Click 'OK' for true and 'Cancel' for false.")
+    window.confirm("Welcome to a True/False Game! Click 'OK' for true and 'Cancel' for false.")
    
     
     for (var i = 0; i < 5; i ++){
@@ -48,7 +48,6 @@ var questions= [
 }
 
 
-playGame();
 
 var playButton = document.getElementById('trueButton');
 playButton.addEventListener('click', playGame);   
