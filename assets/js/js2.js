@@ -18,13 +18,12 @@ var questions= [
     { q: "Trees are 400 millions years older than grass",  a: 't'},
     { q: `All drug sniffing dogs are addicted to the drugs they sniff out. 
     That's why they're so eager to find the drugs.`,  a: 'f'},
-    
-
     ];
+
     var score = 0;
   
     
-    window.confirm("Welcome to a True/False Game! Click 'OK' for true and 'Cancel' for false.")
+    window.alert("Welcome to a True/False Game! Click 'OK' for true and 'Cancel' for false.")
    
     
     for (var i = 0; i < 5; i ++){
